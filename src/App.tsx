@@ -2,6 +2,8 @@ import React from "react";
 
 import Head from "./components/Head";
 import { Button } from "./components/Button";
+import { Input } from "./components/Input";
+
 import "./App.css";
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       >
         Hello
       </Button>
+      <Input />
     </div>
   );
 }
